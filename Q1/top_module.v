@@ -17,7 +17,7 @@ parameter [7:0] color_init_B = 8'h00;
 parameter state_max = 6;
 parameter gradient_max = 25;
 parameter duty_cycle_max = 100;
-parameter N = duty_cycle_max * 100_000; // 1 for Simulation
+parameter N = duty_cycle_max * 100_000; // duty_cycle_max * 1 for Simulation
 
 reg [7:0] duty_cycle [0:2];
 wire clk;
