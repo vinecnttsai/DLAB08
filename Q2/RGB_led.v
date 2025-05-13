@@ -31,7 +31,7 @@ endmodule
 module PWM (
     input clk,
     input sys_rst_n,
-    input [6:0] duty_cycle, // 1 ~ 100
+    input [7:0] duty_cycle, // 1 ~ 100
     output reg out
 );
 
